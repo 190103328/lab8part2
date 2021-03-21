@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ayaulym Akkulova</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700;800&family=Josefin+Slab:ital,wght@0,400;0,600;1,300;1,400;1,600&family=Muli:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="spinner-container">
+      <div class="circles">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="hamburger-menu">
+        <div class="line line-1"></div>
+        <div class="line line-2"></div>
+        <div class="line line-3"></div>
+        <span>Close</span>
+      </div>
+      <header class="header">
+        <div class="img-wrapper">
+          <img src="balloons1.jpeg" />
+        </div>
+        <div class="banner">
+          <h1>Pinkie Pie</h1>
+          <p>Holiday agency. We are with you in the best moments of life</p>
+        
+          <button>Order now</button>
+          
+          <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Call me</button>
+
+<div id="id01" class="modal">
+  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+  <form class="modal-content" action="/action_page.php">
+    <div class="container2">
+      <h1>Call me</h1>
+      <p>If you want us to call you back then get your number</p>
+      <hr>
+      <label for="email"><b>Name</b></label>
+      <input type="text" placeholder="Your name" name="email" required>
+
+      <label for="psw"><b>Phone number</b></label>
+      <input type="text" placeholder="Enter Phone number" name="psw" required>
+      
+      <div class="clearfix">
+        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+        <button type="submit" class="signupbtn">Call me</button>
+      </div>
+    </div>
+  </form>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+      </header>
+
+      <section class="sidebar">
+        <ul class="menu">
+          <li class="menu-item">
+            <a href="#" class="menu-link" data-content="Home">Home</a>
+          </li>
+          <li class="menu-item">
+            <a href="#" class="menu-link" data-content="About Us">About Us</a>
+          </li>
+          <li class="menu-item">
+            <a href="#" class="menu-link" data-content="Services">Services</a>
+          </li>
+          <li class="menu-item">
+            <a href="#" class="menu-link" data-content="Portfolio">Portfolio</a>
+          </li>
+          <li class="menu-item">
+            <a href="#" class="menu-link" data-content="Contact">Contact</a>
+          </li>
+        </ul>
+        <div class="social-media">
+          <a href="#"><i class="fab fa-whatsapp"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-telegram"></i></a>
+        </div>
+      </section>
+
+      <section class="about-us">
+        <div class="section-header">
+          <h1 class="section-heading">About Us</h1>
+          <div class="underline"></div>
+        </div>
+        <div class="services">
+          <div class="service">
+            <div class="service-header">
+                <i class="fas fa-birthday-cake"></i>
+              <h3>Who are we?</h3>
+            </div>
+            <p class="service-text">
+                Pinkie Pie Event Hosting Agency
+            </p>
+          </div>
+          <div class="service">
+            <div class="service-header">
+                <i class="far fa-star"></i>
+              <h3>What is included in our services?</h3>
+            </div>
+            <p class="service-text">
+                We will make a holiday anywhere, we can find 
+                you a place for a holiday, decoration, dancers, cooks, waiters,
+                 presenters, actors videography and photographers
+            </p>
+          </div>
+          <div class="service">
+            <div class="service-header">
+                <i class="far fa-smile"></i>
+              <h3>Why us?</h3>
+            </div>
+            <p class="service-text">
+                We will make your holiday unforgettable, 
+                our clients are always happy with us
+            </p>
+          </div>
+          <div class="service">
+            <div class="service-header">
+                <i class="fas fa-gift"></i>
+              <h3>How we are working?</h3>
+            </div>
+            <p class="service-text">
+                We will be with you from the beginning to the end  of the event, and for
+                 everything that you ordered from us, we will be responsible, you just need to be 
+                with the guests and enjoy the holiday, we will take care of the rest
+            </p>
+          </div>
+          <div class="service">
+            <div class="service-header">
+                <i class="fas fa-dove"></i>
+              <h3>How to order?</h3>
+            </div>
+            <p class="service-text">
+                You can leave a request on this site, the operator will contact you within an hour. 
+                If you have additional questions, you can write us on social networks, call. If a
+                the operator did not answer choose the service "call me" and we will call you as soon
+                 as we are free
+            </p>
+          </div>
+          <div class="service">
+            <div class="service-header">
+                <i class="fas fa-donate"></i>
+              <h3>How do you pay?</h3>
+            </div>
+            <p class="service-text">
+                During the contract, we take 30% of the advance payment, 
+                3 days before the event another 50%, and after the end of the remaining 20%
+            </p>
+          </div>
+          <div class="about-us-img-wrapper">
+            <img src="pinkie2.png"
+            style="margin-top: -67%; margin-left: -15%;"
+            />
+          </div>
+        </div>
+      </section>
+
+      
+
+      <div class="services1">
+      <h1 style="display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 7rem 0 10rem 0;" class="section-heading" >Services</h1>
+      <!--<div class="underline"></div>-->
+      <div class="slider">
+        <div class="slider__wrapper">
+          <div class="slider__items">
+            <div class="slider__item slider__item_1">
+              <div class="slider__item_inner">
+                <span class="slider__item_img">
+                  <img class="slider__item_photo" src="images1.jpeg" alt="">
+                </span>
+                <span class="slider__item_testimonial">
+                  <span class="slider__item_name">MARKETING EVENTS</span>
+                  <span class="slider__item_text">
+                    SPONSORSHIP AT FESTIVALS
+                    <br>EXHIBITIONS
+                    <br>FASHION EVENTS
+                  </span>
+                </span>
+              </div>
+            </div>
+            <div class="slider__item slider__item_2">
+              <div class="slider__item_inner">
+                <span class="slider__item_img">
+                  <img src="images1.jpeg" alt="">
+                </span>
+                <span class="slider__item_testimonial">
+                  <span class="slider__item_name">LPRIVATE EVENTS</span>
+                  <span class="slider__item_text">
+                    BOY / GIRL
+                    <br>ANNIVERSARIES
+                    <br>CHILDREN'S BIRTHDAYS
+                  </span>
+                </span>
+              </div>
+            </div>
+            <div class="slider__item slider__item_3">
+              <div class="slider__item_inner">
+                <span class="slider__item_img">
+                  <img src="images1.jpeg" alt="">
+                </span>
+                <span class="slider__item_testimonial">
+                  <span class="slider__item_name">BUSINESS EVENTS</span>
+                  <span class="slider__item_text">
+                    BUSINESS MEETING
+                    <br>NETWORKING MEETINGS
+                    <br>STRATEGIC SESSIONS
+                    <br>CONFERENCES AND FORUMS
+                  </span>
+                </span>
+              </div>
+            </div>
+            <div class="slider__item slider__item_4">
+              <div class="slider__item_inner">
+                <span class="slider__item_img">
+                  <img src="images1.jpeg" alt="">
+                </span>
+                <span class="slider__item_testimonial">
+                  <span class="slider__item_name">CORPORATE EVENTS</span>
+                  <span class="slider__item_text">
+                    COMPANY BIRTHDAYS
+                    <br>SUMMER / WINTER / NEW YEAR CORPORATE
+                    <br>TEAM BUILDINGS
+                  </span>
+                </span>
+              </div>
+            </div>
+            <div class="slider__item slider__item_5">
+              <div class="slider__item_inner">
+                <span class="slider__item_img">
+                  <img src="images1.jpeg" alt="">
+                </span>
+                <span class="slider__item_testimonial">
+                  <span class="slider__item_name">VIDEOPRODUCTION</span>
+                  <span class="slider__item_text">
+                    VIDEO SHOOTING FOR BUSINESS
+                     <br>CREATION OF ADVERTISING AND PROMO ROLLERS
+                  </span>
+                </span>
+              </div>
+            </div>
+            <div class="slider__item slider__item_6">
+              <div class="slider__item_inner">
+                <span class="images1.jpeg">
+                  <img src="/examples/images/photo-6.jpg" alt="">
+                </span>
+                <span class="slider__item_testimonial">
+                  <span class="slider__item_name">ONLINE EVENTS</span>
+                  <span class="slider__item_text">
+                    ONLINE BRIEFING
+                    <br>ONLINE SEMINARS
+                    <br>ONLINE TRAINING
+                    <br>ONLINE CONFERENCES
+                    <br>ONLINE BROADCASTING
+                  </span>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="slider__control slider__control_prev" href="#" role="button"></a>
+        <a class="slider__control slider__control_next" href="#" role="button"></a>
+      </div>
+      </div>
+
+
+
+
+
+       
+        
+         <!--<div class="portfolio">
+        <h1 style="text-align:center" class="section-heading" >Portfolio</h1>-->
+        <!--<div class="underline"></div>-->
+        <!-- The four columns -->
+        <!--<div class="row">
+          <div class="column">
+            <img src="photo1.jpeg" alt="Nature" style="width:110px; height: 100px;" onclick="myFunction(this);">
+          </div>
+          <div class="column">
+            <img src="photo2.jpeg" alt="Snow" style="width:110px; height: 100px;" onclick="myFunction(this);">
+          </div>
+          <div class="column">
+            <img src="photo3.jpeg" alt="Mountains" style="width:110px; height: 100px;" onclick="myFunction(this);">
+          </div>
+          <div class="column">
+            <img src="photo4.jpeg" alt="Mountains" style="width:110px; height: 100px;" onclick="myFunction(this);">
+          </div>
+          <div class="column">
+            <img src="photo5.jpeg" alt="Mountains" style="width:110px; height: 100px;" onclick="myFunction(this);">
+          </div>
+          <div class="column">
+            <img src="photo6.jpeg" alt="Mountains" style="width:110px; height: 100px;" onclick="myFunction(this);">
+          </div>
+          <div class="column">
+            <img src="photo7.jpeg" alt="Mountains" style="width:110px; height: 100px;" onclick="myFunction(this);">
+          </div>
+          <div class="column">
+            <img src="photo8.jpeg" alt="Mountains" style="width:110px; height: 100px;" onclick="myFunction(this);">
+          </div>
+          <div class="column">
+            <img src="photo9.jpeg" alt="Mountains" style="width:110px; height: 100px;" onclick="myFunction(this);">
+          </div>
+          <div class="column">
+            <img src="photo10.jpeg" alt="Mountains" style="width:110px; height: 100px;" onclick="myFunction(this);">
+          </div>
+        </div>
+        
+        <div class="container1">
+          <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+          <img id="expandedImg" style="width:100%">
+          <div id="imgtext"></div>
+        </div>
+        </div>-->
+    
+
+       
+
+
+
+
+
+
+
+
+
+      
+        </head>
+        
+      
+        
+        <div class="container">
+          <div style="text-align:center">
+            <h1 style="  font-size: 4rem;">Order</h1>
+          </div>
+          <div class="row">
+            <div class="column">
+              <img src="finish.gif" style="width:90%">
+            </div>
+            <div class="column">
+              <form action="/action_page.php">
+                <!--<label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                <label for="country">Category</label>
+                <select id="country" name="country">
+                  <option value="australia">wedding</option>
+                  <option value="canada">birthday</option>
+                  <option value="usa">corporate</option>
+                  <option value="usa">matinee</option>
+                  <option value="usa">hen-party</option>
+                  <option value="usa">other</option>
+                </select>
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+                <input type="submit" value="Submit">-->
+                <form id="mailForm">
+                  <input type="text" id="name" name="name" placeholder="Your name..." >
+                  <input type="phone" id="phone" name="phone" placeholder="Number..." >
+                  <input type="email" id="email" name="email" placeholder="Email..." >
+                  <textarea name="text" id="text" cols="30" rows="10"></textarea>
+                  <button type="button" id="sendMail" class="btn btn-success">Order</button>
+                </form>
+                <div id="errorMess"></div>
+              </form>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+
+
+        <footer class="footer">
+          <div class="footer-content">
+            <p class="copyright">
+              Pinkie Pie:
+              Holiday agency. We are with you in the best moments of life
+            </p>
+            <div class="social-list">
+              <a href="#"><i class="fab fa-whatsapp"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-telegram"></i></a>
+            </div>
+          </div>
+        </footer>
+        <a href="#" class="scroll-btn">
+          <i class="fas fa-arrow-up"></i>
+        </a>
+      </div>
+
+
+
+
+
+
+
+      <script src="script.js"></script>
+      <script
+        src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+        crossorigin="anonymous"
+      ></script>
+    
+    </body>
+  </html>
+
+  
